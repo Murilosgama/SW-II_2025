@@ -1,3 +1,3 @@
 <?php
-echo "Bom dia professor Anderson!";
+    echo "Bom dia professor Anderson!";
 ?>
