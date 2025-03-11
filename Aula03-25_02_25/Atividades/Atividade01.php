@@ -57,9 +57,7 @@ function calcularFatorial($numero) {
     }
 }
 
-// Exemplos de uso das funções
-boasVindas("Alice");
-
+// 9. Função que recebe um número e retorna seu fatorial
 $diferenca = calcularDiferenca(10, 5);
 echo "A diferença é: " . $diferenca . "<br>";
 
