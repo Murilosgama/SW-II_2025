@@ -1,5 +1,6 @@
 <?php
-    // 1. Função que exibe uma mensagem de boas-vindas
+
+// 1. Função que exibe uma mensagem de boas-vindas
 function boasVindas($nome) {
     echo "Olá, " . $nome . "! Seja bem-vindo(a)!<br>";
 }
