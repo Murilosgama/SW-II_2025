@@ -12,7 +12,7 @@
         file_put_contents($arquivos, json_encode([], JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     }
     
-    //LE O ARQUIVO JSON
+    //LER O ARQUIVO JSON
     $usuarios = json_decode(file_get_contents($arquivo), true);
 
     switch ($metodo) {
