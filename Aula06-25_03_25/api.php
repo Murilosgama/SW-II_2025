@@ -1,13 +1,13 @@
 <?php
     //cabeçalho
-    header("Content-Type: application/json"); //define o tipo da resposta
+    header("Content-Type: application/json");
 
     $metodo = $_SERVER['REQUEST_METHOD'];
 
     //conteudo
     $usuarios = [
-        ["id" => 1, "nome" => "Maria Souza", "email" => "maria@email.com"],
-        ["id" => 2, "nome" => "João Silva", "email" => "joao@email.com"]
+        ["id" => 1, "nome" => "Raphael Souza", "email" => "rapha@email.com"],
+        ["id" => 2, "nome" => "Caio Cordeiro", "email" => "caio@email.com"]
     ];
 
     // echo "Método da requisição: " . $metodo;
@@ -21,7 +21,6 @@
         case 'POST':
             //echo "Aqui são ações do método POST";
             $dados = json_decode(file_get_contents('php://input'), true);
-            //print_r($dados);
 
             $novoUsuario = [
                 "id" => $dados["id"],

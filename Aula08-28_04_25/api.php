@@ -4,7 +4,6 @@
 
     $metodo = $_SERVER['REQUEST_METHOD'];
 
-    //Recupera o arquivo JSON
     $arquivo = 'usuarios.json';
 
     // Verifica se o arquivo existe, se NÃO, ele cria um array vazio
@@ -39,7 +38,6 @@
                 }
             }
             else{
-                //Retorna todos os usuários
                 echo json_encode($usuarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE);
             }
             break;        
@@ -70,7 +68,6 @@
             //Adiciona o novo USUÁRIO ao array existente
             $usuarios[] = $novoUsuario;
 
-            //Salva o arquivo!
             file_put_contents($arquivo, json_encode($usuarios, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
 
             //Retorna a mensagem de confirmação :)
@@ -81,7 +78,7 @@
             break;        
 
         default:
-            http_response_code(405); //metodo n permitido
+            http_response_code(405);
             echo json_encode(["erro" => "Método não permitido"], JSON_UNESCAPED_UNICODE);
             break;        
     }

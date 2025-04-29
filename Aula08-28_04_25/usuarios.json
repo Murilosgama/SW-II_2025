@@ -1,27 +1,27 @@
 [
     {
         "id": 1,
-        "nome": "Taylor",
-        "email": "taylorswift13@email"
+        "nome": "Chaves",
+        "email": "meninodobarril@email"
     },
     {
         "id": 2,
-        "nome": "Dua",
-        "email": "dualipa@email"
+        "nome": "Duda",
+        "email": "dudinha@email"
     },
     {
         "id": null,
-        "nome": "Jao",
-        "email": "jaoromania@email"
+        "nome": "João",
+        "email": "joaozinho@email"
     },
     {
         "id": 3,
-        "nome": "Jao",
-        "email": "jaoromania@email"
+        "nome": "Pedri",
+        "email": "pedri@email"
     },
     {
         "id": 4,
-        "nome": "Murilo Bezerra",
-        "email": "murilo@email.com"
+        "nome": "Maestro Castro",
+        "email": "maestro@email.com"
     }
 ]
