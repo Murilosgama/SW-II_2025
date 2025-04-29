@@ -7,7 +7,7 @@
     {
         "id": 2,
         "nome": "Duda",
-        "email": "dudinha@email"
+        "email": "duda@email"
     },
     {
         "id": 3,
@@ -18,10 +18,5 @@
         "id": 4,
         "nome": "Pedri",
         "email": "pedri@email"
-    },
-    {
-        "id": 5,
-        "nome": "Maestro Castro",
-        "email": "maestro@email.com"
     }
 ]
