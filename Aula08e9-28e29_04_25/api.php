@@ -50,7 +50,7 @@
                 exit;
             }
 
-            //GEra um ID único
+            //Gera um ID único
             $novo_id = 1;
 
             if (!empty($usuarios)) {
