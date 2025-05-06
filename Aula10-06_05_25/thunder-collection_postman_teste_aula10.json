@@ -11,7 +11,7 @@
             "request": {
                 "method": "GET",
                 "url": {
-                    "raw": "http://localhost/exemplos_aula10_swii/api.php/",
+                    "raw": "http://localhost/SW-II_2025/Aula10-06_05_25/index4.php/",
                     "path": [
                         "exemplos_aula10_swii",
                         "api.php"
@@ -28,7 +28,7 @@
             "request": {
                 "method": "GET",
                 "url": {
-                    "raw": "http://localhost/exemplos_aula10_swii/api.php/?id=1",
+                    "raw": "http://localhost/SW-II_2025/Aula10-06_05_25/index4.php/?id=1",
                     "query": [
                         {
                             "key": "id",
@@ -52,7 +52,7 @@
             "request": {
                 "method": "POST",
                 "url": {
-                    "raw": "http://localhost/exemplos_aula10_swii/api.php",
+                    "raw": "http://localhost/SW-II_2025/Aula10-06_05_25/index4.php",
                     "path": [
                         "exemplos_aula10_swii",
                         "api.php"
@@ -78,7 +78,7 @@
             "request": {
                 "method": "PUT",
                 "url": {
-                    "raw": "http://localhost/exemplos_aula10_swii/api.php/?id=1",
+                    "raw": "http://localhost/SW-II_2025/Aula10-06_05_25/index4.php/?id=1",
                     "query": [
                         {
                             "key": "id",
@@ -111,7 +111,7 @@
             "request": {
                 "method": "DELETE",
                 "url": {
-                    "raw": "http://localhost/exemplos_aula10_swii/api.php?id=5",
+                    "raw": "http://localhost/SW-II_2025/Aula10-06_05_25/index4.php?id=5",
                     "query": [
                         {
                             "key": "id",

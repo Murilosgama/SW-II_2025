@@ -1,6 +1,6 @@
 <?php
 // Configurações
-$api_url = 'http://localhost/SW-II_2025/Aula10-06_05_25/index4.php';
+$api_url = 'http://localhost/exemplos_aula10_swii/api.php';
 $mensagem = '';
 $erro = '';
 
